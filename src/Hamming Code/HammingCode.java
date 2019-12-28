@@ -2,9 +2,9 @@ class HammingCode {
 
 	public static void main(String[] args) {
 		
-		// Calculate hamming code given a bitsequence with its length and parity
-		long bitSequence = Long.parseLong("1010110", 2);
-		boolean parity = true;
+	    // Calculate hamming code given a bitsequence with its length and parity
+	    long bitSequence = Long.parseLong("1010110", 2);
+	    boolean parity = true;
 		
 	    System.out.println(Long.toBinaryString(calcHamming(bitSequence, 7, parity)));
 	    
